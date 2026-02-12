@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000">
+  <rect width="1600" height="1000" fill="#ffffff"/>
+  <g fill="#f7c6cf" opacity="0.30"><circle cx="1180" cy="520" r="300"/></g>
+  <g fill="none" stroke="#14202e" stroke-opacity="0.16" stroke-width="10">
+    <circle cx="560" cy="520" r="240"/>
+    <circle cx="760" cy="520" r="240"/>
+  </g>
+  <text x="120" y="170" font-family="ui-serif, Georgia, serif" font-size="72" font-weight="800" fill="#14202e">Relazioni</text>
+  <text x="120" y="230" font-family="ui-sans-serif, system-ui" font-size="30" font-weight="750" fill="#516173">confini e comunicazione</text>
+</svg>

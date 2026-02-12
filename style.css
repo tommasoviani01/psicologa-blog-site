@@ -44,7 +44,7 @@ header{
   backdrop-filter:blur(10px);
   border-bottom:1px solid var(--line);
 }
-.nav{display:flex;align-items:center;justify-content:space-between;gap:14px;padding:14px 0}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:14px;padding:14px 0;}
 .brand{display:flex;align-items:center;gap:12px}
 .brand .mark{
   width:42px;height:42px;border-radius:16px;
@@ -57,14 +57,14 @@ header{
 .brand .title{display:flex;flex-direction:column;line-height:1.05}
 .brand .title strong{font-weight:950;letter-spacing:.02em}
 .brand .title span{color:var(--muted);font-weight:650;font-size:.92rem}
-.navlinks{display:flex;flex-wrap:wrap;gap:14px;justify-content:flex-end}
+.navlinks{display:flex;flex-wrap:wrap;gap:14px;justify-content:flex-end;list-style-type: none;}
 .navlinks a{
   font-weight:850;color:rgba(20,32,46,.86);
   padding:8px 2px;border-bottom:2px solid transparent;
   transition:border-color .15s ease,color .15s ease;
 }
 .navlinks a:hover{border-bottom-color:rgba(42,167,161,.45)}
-.navlinks a.active{border-bottom-color:var(--teal);color:var(--ink)}
+.navlinks a:active{border-bottom-color:var(--teal);color:var(--ink);}
 .hero{padding:32px 0 8px}
 .hero-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:16px;align-items:stretch}
 @media (max-width:920px){.hero-grid{grid-template-columns:1fr}}
@@ -222,3 +222,8 @@ textarea{min-height:140px;resize:vertical}
 input:focus,textarea:focus{border-color:rgba(42,167,161,.55);box-shadow:0 0 0 6px rgba(42,167,161,.14)}
 footer{border-top:1px solid var(--line);padding:22px 0;background:rgba(255,255,255,.72);color:rgba(81,97,115,.92)}
 .small{font-size:.92rem}
+
+.page-content{
+  display: flex;
+  flex-direction: row;
+}

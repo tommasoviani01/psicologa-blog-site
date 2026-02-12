@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000">
+  <rect width="1600" height="1000" fill="#ffffff"/>
+  <g fill="#f2e7d6" opacity="0.70"><rect x="260" y="260" width="520" height="520" rx="90"/></g>
+  <g fill="none" stroke="#14202e" stroke-opacity="0.16" stroke-width="10">
+    <rect x="360" y="320" width="980" height="360" rx="70"/>
+    <path d="M480 520h740"/>
+    <path d="M480 600h600"/>
+  </g>
+  <text x="120" y="170" font-family="ui-serif, Georgia, serif" font-size="72" font-weight="800" fill="#14202e">Burnout</text>
+  <text x="120" y="230" font-family="ui-sans-serif, system-ui" font-size="30" font-weight="750" fill="#516173">stanchezza che non passa</text>
+</svg>
