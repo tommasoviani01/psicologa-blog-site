@@ -10,13 +10,13 @@
       </header>
 
       <?php if (have_posts()): ?>
-      <ul class="post-list">
+      <div class="grid">
 
       <?php while (have_posts()) : the_post();
         get_template_part('partials/post');
       endwhile;
       ?>
-      </ul>
+      </div>
       <?php else: ?>
         <p>Nessun articolo pubblicato.</p>
       <?php endif; ?>
