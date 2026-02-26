@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
   <main class="container">
-    <div class="breadcrumb"><a href="index.html">Home</a> <span>›</span> <span>Contatti</span></div>
+    <div class="breadcrumb"><a href="<?php echo home_url(); ?>">Home</a> <span>›</span> <span>Contatti</span></div>
     <h2 class="section-title">Contatti</h2>
     <p class="muted" style="margin-top:0">Sito statico: il form usa <em>mailto</em>.</p>
     <div class="split">
@@ -13,12 +13,9 @@
           <span class="chip">📍 Roma / Online</span>
         </div>
         <hr class="sep" />
-        <form class="form" action="mailto:studio@giuliaserra.test" method="post" enctype="text/plain">
-          <div><label for="nome">Nome</label><input id="nome" name="Nome" placeholder="Es. Laura"/></div>
-          <div><label for="tema">Tema</label><input id="tema" name="Tema" placeholder="Es. ansia / stress / relazioni"/></div>
-          <div><label for="messaggio">Messaggio</label><textarea id="messaggio" name="Messaggio" placeholder="Scrivi qui..."></textarea></div>
-          <button class="btn primary" type="submit">Apri email →</button>
-        </form>
+        <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+        <?php the_content(); ?>
+        <?php endwhile; endif; ?>
       </section>
       <aside class="panel">
         <h3 style="margin:0 0 8px">Nota</h3>

@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
   <main class="container">
-    <div class="breadcrumb"><a href="index.html">Home</a> <span>›</span> <span>Blog</span></div>
+    <div class="breadcrumb"><a href="<?php echo home_url(); ?>">Home</a> <span>›</span> <span>Blog</span></div>
     <h2 class="section-title">Blog</h2>
     <p class="muted" style="margin-top:0">Articoli divulgativi (demo): immagini in evidenza e pagine singole.</p>
     <div class="grid"><a class="card" href="post-ansia.html">

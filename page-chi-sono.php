@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
   <main class="container">
-    <div class="breadcrumb"><a href="index.html">Home</a> <span>›</span> <span>Chi sono</span></div>
+    <div class="breadcrumb"><a href="<?php echo home_url(); ?>">Home</a> <span>›</span> <span>Chi sono</span></div>
     <h2 class="section-title">Chi sono</h2>
     <div class="split">
       <section class="panel">

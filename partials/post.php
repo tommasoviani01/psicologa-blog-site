@@ -9,8 +9,8 @@
     <h3><?php the_title(); ?></h3>
     <p><?php echo esc_html( wp_trim_words( get_the_excerpt(), 25 ) ); ?></p>
     <div class="meta-line">
-      <span class="chip">🕒 6 min</span>
-      <span class="chip">🧠 psicologia</span>
+      <span class="chip">🕒 5 min</span>
+      <span class="chip">🧠 Psicologia</span>
     </div>
     <hr class="sep" />
     <span class="btn primary">Leggi →</span>
