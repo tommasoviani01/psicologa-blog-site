@@ -10,8 +10,8 @@
         <p class="muted">Psicologa con interesse per benessere, gestione dell’ansia e relazioni. Percorsi costruiti insieme, rispettando tempi e contesto.</p>
         <p class="muted">Il primo incontro serve a capire cosa stai vivendo e cosa desideri ottenere dal percorso.</p>
         <div class="actions" style="margin-top:12px">
-          <a class="btn primary" href="contatti.html">Contattami</a>
-          <a class="btn" href="blog.html">Blog</a>
+          <a class="btn primary" href="<?php echo get_permalink(get_page_by_path('contatti'))?>">Contattami</a>
+          <a class="btn" href="<?php echo get_permalink(get_page_by_path('blog'))?>">Blog</a>
         </div>
       </section>
       <aside class="panel">
